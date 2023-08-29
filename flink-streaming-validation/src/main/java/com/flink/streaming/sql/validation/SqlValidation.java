@@ -190,8 +190,8 @@ public class SqlValidation {
 
   private static FlinkSqlConformance getSqlConformance(SqlDialect sqlDialect) {
     switch (sqlDialect) {
-      case HIVE:
-        return FlinkSqlConformance.HIVE;
+//      case HIVE:
+//        return FlinkSqlConformance.HIVE;
       case DEFAULT:
         return FlinkSqlConformance.DEFAULT;
       default:
