@@ -6,7 +6,7 @@
         <artifactId>flink-streaming-platform-web</artifactId>
         <groupId>com.streaming.platform.web</groupId>
         <relativePath>../pom.xml</relativePath>
-        <version>1.1</version>
+        <version>custom-test-SN</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

@@ -4,12 +4,13 @@ import com.flink.streaming.web.ao.JobServerAO;
 import com.flink.streaming.web.common.SystemConstants;
 import com.flink.streaming.web.enums.DeployModeEnum;
 import com.google.common.collect.Maps;
-import java.util.Map;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
+
+import java.util.Map;
 
 /**
  * @author zhuhuipei

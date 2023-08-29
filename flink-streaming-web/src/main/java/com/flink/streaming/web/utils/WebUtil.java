@@ -3,9 +3,10 @@ package com.flink.streaming.web.utils;
 import com.flink.streaming.web.common.RestResult;
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
+import jakarta.servlet.http.HttpServletRequest;
 
 @Slf4j
 public class WebUtil {

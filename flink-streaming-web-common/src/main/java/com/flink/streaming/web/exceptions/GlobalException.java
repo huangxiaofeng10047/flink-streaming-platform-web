@@ -2,12 +2,12 @@ package com.flink.streaming.web.exceptions;
 
 import com.flink.streaming.web.common.RestResult;
 import com.flink.streaming.web.enums.SysErrorEnum;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author zhuhuipei

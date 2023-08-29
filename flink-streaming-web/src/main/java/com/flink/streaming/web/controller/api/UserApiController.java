@@ -16,9 +16,10 @@ import com.flink.streaming.web.model.vo.PageVO;
 import com.flink.streaming.web.model.vo.UserVO;
 import com.flink.streaming.web.service.UserService;
 import java.util.List;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +45,7 @@ public class UserApiController extends BaseController {
 
   @RequestMapping("/login")
   public RestResult login(ModelMap modelMap, HttpServletResponse response, String name,
-      String password) {
+                          String password) {
     try {
       String cookieId = userService.login(name, password);
       if (StringUtils.isEmpty(cookieId)) {

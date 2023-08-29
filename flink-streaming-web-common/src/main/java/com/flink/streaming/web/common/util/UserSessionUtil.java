@@ -2,11 +2,12 @@ package com.flink.streaming.web.common.util;
 
 import com.flink.streaming.web.common.SystemConstants;
 import com.flink.streaming.web.model.dto.UserSession;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
+
 
 /**
  * @author zhuhuipei
